@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tracks', function () {
+    return view('welcome');
+});
+
+Route::get('/community', function () {
+    return view('welcome');
+});
+
+Route::get('/support', function () {
+    return view('welcome');
+});
+
+/*
+Route::get('/', function () {
+    //return "Hello World";
+    $number = 50;
+    return 50 * 50 * $number;
+});*/
+
