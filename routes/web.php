@@ -17,15 +17,15 @@
 Route::get('/', 'AppController@index');
 
 Route::get('/tracks', function () {
-    return view('welcome');
+    return view('tracks');
 });
 
 Route::get('/community', function () {
-    return view('welcome');
+    return view('community');
 });
 
 Route::get('/support', function () {
-    return view('welcome');
+    return view('support');
 });
 
 /*
